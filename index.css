@@ -1,0 +1,65 @@
+body {
+  padding-top: 10vh;
+  background-color: #2c3e50;
+  color: #34495e;
+  display: flex;
+  justify-content: center;
+}
+.body__back__color__week {
+  width: 90vw;
+  background-color: rgba(255, 255, 255, 0.192);
+  display: flex;
+  justify-content: center;
+}
+
+.body__back__color {
+  padding: 10px 10px;
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.788);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.js-clock {
+  font-size: x-large;
+}
+.js-greetings {
+  font-size: large;
+}
+
+.btn {
+  cursor: pointer;
+}
+.clicked {
+  color: #7f8c8d;
+}
+.form,
+.greetings {
+  display: none;
+}
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+.js-weather {
+  color: 34495e;
+}
